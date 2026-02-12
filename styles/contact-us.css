@@ -1,0 +1,62 @@
+address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 55%;
+    width: 60%;
+}
+
+#contact-us-section{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact-div, #form-div{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#message-input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 2%;
+    height: 60%;
+}
+
+#send-button{
+    width: 30%;
+    border-radius: 10%;
+    padding: 2% 3%;
+    border: 2px solid #5A7ACD;
+}
+
+#send-button:hover{
+    background-color: #5A7ACD;
+    color: white;
+    cursor: pointer;
+}
+
+.address-text{
+    margin: 0;
+}
+
+.detail-input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 2%;
+}

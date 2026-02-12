@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunsetTravels</title>
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/package-styles.css">
+</head>
+<body>
+    <nav>
+        <ul id="nav-links">
+            <li class="nav-link-holder"><a class="nav-link-holder" href="index.html"><button class="nav-link" type="button">Home</button></a></li>
+            <li class="nav-link-holder"><a class="nav-link-holder" href="about.html"><button class="nav-link" type="button">About</button></a></li>
+            <li class="nav-link-holder"><a class="nav-link-holder" href="destinations.html"><button class="nav-link" type="button">Destinations</button></a></li>
+            <li class="nav-link-holder"><a class="nav-link-holder" href="prices.html"><button class="nav-link active" type="button">Prices</button></a></li>
+            <li class="nav-link-holder"><a class="nav-link-holder" href="contact-us.html"><button class="nav-link" type="button">Contact Us</button></a></li>
+        </ul>
+    </nav>
+    <section id="package-section">
+        <div id="selected-package">
+            <div id="package-display">
+                <h2 class="heading-font">You have selected: Standard</h2>
+                <h3 class="text-font">This includes:</h3>
+                <ul class="package-details">
+                    <li>Flights</li>
+                    <li>Accommodation</li>
+                    <li>Evening Meals Included</li>
+                </ul>
+                <h2 class="heading-font">Price: £100 per person</h2>
+            </div>
+        </div>
+        <div class="vr"></div>
+        <div id="confirmation">
+            <h2 class="heading-font">Confirm this Package:</h2>
+            <form action="">
+                <input class="detail-input" type="text" placeholder="Full Name" autocomplete="off" required>
+                <input class="detail-input" type="email" placeholder="Email" autocomplete="off" required>
+                <input class="detail-input" type="text" placeholder="Card Number" autocomplete="off" required>
+                <input class="detail-input" type="text" placeholder="Name on card" autocomplete="off" required>
+                <div id="card-detail-div">
+                    <input class="short-detail-input" type="text" placeholder="MM" autocomplete="off" required>
+                    <input class="short-detail-input" type="text" placeholder="YYYY" autocomplete="off" required>
+                    <input class="short-detail-input" type="text" placeholder="CSV" autocomplete="off" required>
+                </div>
+                <div id="confirm-div">
+                    <label for="confirm-receipt">Email order confirmation:</label>
+                    <input type="checkbox">
+                </div>
+                <div id="submit-div">
+                    <button id="submit-order-button" type="submit">Submit Order</button>
+                    <button id="reset-order-button" type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <h4>Sunset Travels 2026 ©</h4>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+h1{
+    color: #FE7F2D;
+}
+
+h2{
+    margin: 0;
+    height: 10%;
+}
+
+#prices-section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#all-prices-divs{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.price-div{
+    height: 100%;
+    width: 33%;
+    background-color: #FF6500;
+    border-radius: 10%;
+    border: 2px solid #FF6500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.price-display{
+    width: 100%;
+    height: 80%;
+    background-color: #FD8A6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option-benefits{
+    height: 50%;
+    margin: 0;
+    font-size: 20px;
+    width: 40%;
+}
+
+.purchase-button{
+    padding: 10% 10%;
+    border-radius: 10%;
+    border: 2px solid #5A7ACD;
+}
+
+.purchase-button:hover{
+    background-color: #5A7ACD;
+    color: white;
+    cursor: pointer;
+}

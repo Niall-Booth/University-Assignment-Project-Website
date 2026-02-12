@@ -1,0 +1,106 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#package-section{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#selected-package, #confirmation{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#package-display{
+    width: 80%;
+    height: 80%;
+    background-color: #FD8A6B;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#card-detail-div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#confirm-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#submit-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#submit-order-button{
+    width: 30%;
+    border-radius: 10%;
+    padding: 2% 3%;
+    border: 2px solid #5A7ACD;
+}
+
+#submit-order-button:hover{
+    background-color: #5A7ACD;
+    color: white;
+    cursor: pointer;
+}
+
+#reset-order-button{
+    width: 30%;
+    border-radius: 10%;
+    padding: 2% 3%;
+    border: 2px solid #F63049;
+}
+
+#reset-order-button:hover{
+    background-color: #F63049;
+    color: white;
+    cursor: pointer;
+}
+
+.package-details{
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    font-size: 20px;
+}
+
+.detail-input{
+    width: 50%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.short-detail-input{
+    width: 30%;
+    border-radius: 10px;
+    padding: 2%;
+}
