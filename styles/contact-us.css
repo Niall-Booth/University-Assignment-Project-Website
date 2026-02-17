@@ -9,8 +9,8 @@ form{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 55%;
-    width: 60%;
+    height: 100%;
+    width: 80%;
 }
 
 #contact-us-section{
@@ -22,7 +22,7 @@ form{
     gap: 10px;
 }
 
-#contact-div, #form-div{
+#contact-div, #form-div-holder{
     height: 100%;
     width: 50%;
     display: flex;
@@ -31,11 +31,22 @@ form{
     flex-direction: column;
 }
 
+#form-div{
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+}
+
 #message-input{
     width: 100%;
     border-radius: 10px;
     padding: 2%;
-    height: 60%;
+    height: 50%;
 }
 
 #send-button{

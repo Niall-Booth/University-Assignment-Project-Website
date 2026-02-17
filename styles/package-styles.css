@@ -2,7 +2,7 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 100%;
     flex-direction: column;
     gap: 10px;
 }
@@ -43,23 +43,6 @@ form{
     gap: 10px;
 }
 
-#confirm-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-#submit-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-}
-
 #submit-order-button{
     width: 30%;
     border-radius: 10%;
@@ -86,6 +69,17 @@ form{
     cursor: pointer;
 }
 
+#form-div{
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+}
+
 .package-details{
     width: 50%;
     height: 50%;
@@ -103,4 +97,13 @@ form{
     width: 30%;
     border-radius: 10px;
     padding: 2%;
+}
+
+.submit-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
 }

@@ -31,26 +31,28 @@
         </div>
         <div class="vr"></div>
         <div id="confirmation">
-            <h2 class="heading-font">Confirm this Package:</h2>
-            <form action="">
-                <input class="detail-input" type="text" placeholder="Full Name" autocomplete="off" required>
-                <input class="detail-input" type="email" placeholder="Email" autocomplete="off" required>
-                <input class="detail-input" type="text" placeholder="Card Number" autocomplete="off" required>
-                <input class="detail-input" type="text" placeholder="Name on card" autocomplete="off" required>
-                <div id="card-detail-div">
-                    <input class="short-detail-input" type="text" placeholder="MM" autocomplete="off" required>
-                    <input class="short-detail-input" type="text" placeholder="YYYY" autocomplete="off" required>
-                    <input class="short-detail-input" type="text" placeholder="CSV" autocomplete="off" required>
-                </div>
-                <div id="confirm-div">
-                    <label for="confirm-receipt">Email order confirmation:</label>
-                    <input type="checkbox">
-                </div>
-                <div id="submit-div">
-                    <button id="submit-order-button" type="submit">Submit Order</button>
-                    <button id="reset-order-button" type="reset">Cancel</button>
-                </div>
-            </form>
+            <div id="form-div">
+                <h2 class="heading-font">Confirm this Package:</h2>
+                <form action="">
+                    <input class="detail-input" type="text" placeholder="Full Name" autocomplete="off" required>
+                    <input class="detail-input" type="email" placeholder="Email" autocomplete="off" required>
+                    <input class="detail-input" type="text" placeholder="Card Number" autocomplete="off" required>
+                    <input class="detail-input" type="text" placeholder="Name on card" autocomplete="off" required>
+                    <div id="card-detail-div">
+                        <input class="short-detail-input" type="text" placeholder="MM" autocomplete="off" required>
+                        <input class="short-detail-input" type="text" placeholder="YYYY" autocomplete="off" required>
+                        <input class="short-detail-input" type="text" placeholder="CSV" autocomplete="off" required>
+                    </div>
+                    <div class="submit-div">
+                        <label for="confirm-receipt">Email order confirmation:</label>
+                        <input type="checkbox">
+                    </div>
+                    <div class="submit-div">
+                        <button id="submit-order-button" type="submit">Submit Order</button>
+                        <button id="reset-order-button" type="reset">Cancel</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <footer>
