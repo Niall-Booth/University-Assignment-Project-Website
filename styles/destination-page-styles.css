@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid red;
+}
+
 h1, h2{
     margin: 0;
     color: white;
@@ -107,7 +111,6 @@ h1, h2{
         flex-direction: column;
         width: 100%;
         gap: 50px;
-        height: 50%;
         margin-bottom: 50px;
     }
 
