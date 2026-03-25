@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunsetTravels</title>
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/contact-us-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" id="dropdown-nav-check">
+    <nav>
+        <ul id="nav-links">
+            <li class="nav-link-holder"><a class="nav-link" href="index.html">Home</a></li>
+            <li id="destinations-dropdown" class="nav-link-holder">
+                <a class="nav-link" href="destinations.html">Destinations</a>
+                <div id="available-destinations">
+                    <a class="destinations" href="teneriffe.html">Teneriffe</a>
+                    <a class="destinations" href="tokyo.html">Tokyo</a>
+                    <a class="destinations" href="san-francisco.html">San Francisco</a>
+                </div>
+            </li>
+            <li class="nav-link-holder"><a class="nav-link" href="prices.html">Prices</a></li>
+            <li class="nav-link-holder"><a class="nav-link" href="about-us.html">About</a></li>
+            <li class="nav-link-holder"><a class="nav-link" href="reviews.html">Reviews</a></li>
+            <li class="nav-link-holder"><a class="nav-link active" href="contact-us.html">Contact Us</a></li>
+        </ul>
+        <label id="burger-button" for="dropdown-nav-check">☰</label>
+    </nav>
+    <section id="contact-us-section">
+        <div id="contact-div">
+            <h2 class="heading-font">Want to get in touch?</h2>
+            <h3 class="text-font">Email: info@SunsetTravels.co.uk</h3>
+            <h3 class="text-font">Phone: 012337 987234</h3>
+            <h3 class="text-font">Address:</h3>
+            <address>
+                <h3 class="address-text">Sunset Travels</h3>
+                <h3 class="address-text">251 Landscape Avenue</h3>
+                <h3 class="address-text">Panama</h3>
+                <h3 class="address-text">BB62 9AW</h3>
+            </address>
+            <p>↓ Form Below ↓</p>
+        </div>
+        <div class="vr"></div>
+        <div id="form-div-holder">
+            <div id="form-div">
+                <h2 class="heading-font">Need more infomation?</h2>
+                <form>
+                    <input class="detail-input" type="text" name="name" autocomplete="off" placeholder="name" required>
+                    <input class="detail-input" type="email" name="email" autocomplete="off" placeholder="Email" required>
+                    <textarea id="message-input" type="text" autocomplete="off" placeholder="Your message" required></textarea>
+                    <button id="send-button" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4>Sunset Travels 2026 ©</h4>
+    </footer>
+</body>
+</html>
