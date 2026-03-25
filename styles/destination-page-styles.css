@@ -90,11 +90,12 @@ h1, h2{
 
     #destination-display{
         padding-top: 25%;
-        height: 200dvh;
+        height: 175dvh;
+        gap: 10px;
     }
 
     #background-img-1{
-        height: 113dvh;
+        height: 104dvh;
     }
 
     #background-img-2{
@@ -103,21 +104,19 @@ h1, h2{
         opacity: 90%;
         position: absolute;
         display: block;
-        top: 113dvh;
-        height: 105dvh;
+        top: 104dvh;
+        height: 90dvh;
     }
 
     .destination-row{
-        max-height: 100dvh;
         flex-direction: column;
         width: 100%;
-        gap: 50px;
-        margin-bottom: 50px;
+        gap: 10px;
+        height: auto;
     }
 
     .info-card{
         width: 80%;
-        max-height: 50%;
         box-sizing: border-box;
     }
 
@@ -126,7 +125,7 @@ h1, h2{
     }
 
     .info-img{
-        height: auto;
+        max-height: 100%;
         max-width: 100%;
     }
 
